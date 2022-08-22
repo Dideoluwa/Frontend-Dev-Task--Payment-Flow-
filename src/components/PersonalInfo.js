@@ -38,6 +38,7 @@ function PersonalInfo() {
                     <label>Email Address <span className={styles.span}>*</span></label>
                     <p>The purchase reciept would be sent to this address</p>
                     <input
+                        required
                         placeholder='OparaLinusAhmed@devmail.com'
                         type='email'
                     />

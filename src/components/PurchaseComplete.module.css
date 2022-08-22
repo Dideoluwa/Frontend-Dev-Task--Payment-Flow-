@@ -27,37 +27,105 @@
     width: 84px;
 }
 
-.card_message{
+.card_message {
     margin: auto;
 }
+
 .card_message h1 {
     font-size: 48px;
     line-height: 67px;
     color: #4E598C;
 }
 
-.card_message2{
+.card_message2 {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 42px;
     width: 42%;
 }
 
-.card_message2 p{
+.card_message2 p {
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
     color: #4F4F4F;
 }
-.card_message3{
+
+.card_message3 {
     margin: auto;
     margin-bottom: 40px;
     width: 42%;
 }
-.card_message3 p{
+
+.card_message3 p {
     font-size: 20px;
     font-weight: 400;
     text-decoration: underline;
     color: #F2994A;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 912px) {
+    .card {
+        width: 95%;
+    }
+
+    .card_message {
+        width: 60%;
+    }
+
+    .card_message h1 {
+        font-size: 35px;
+    }
+
+    .card_icon {
+        height: 55px;
+        width: 55px;
+        margin-bottom: 30px;
+    }
+
+    .card_message2 {
+        width: 60%;
+    }
+
+    .card_message3 {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .card {
+        width: 95%;
+    }
+
+    .card_message {
+        width: 60%;
+    }
+
+    .card_message h1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .card_icon {
+        height: 55px;
+        width: 55px;
+        margin-bottom: 30px;
+    }
+
+    .card_message2 {
+        width: 60%;
+    }
+
+    .card_message3 {
+        width: 60%;
+    }
+
+    .card_message2 p {
+        font-size: 15px;
+    }
+
+    .card_message3 p {
+        font-size: 15px;
+    }
 }
