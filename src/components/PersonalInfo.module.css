@@ -1,0 +1,89 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps {
+    margin: auto;
+    display: flex;
+    flex: 1;
+    width: 50%;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.steps_child_title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+.active {
+    color: #F2994A;
+}
+
+.steps_child_line_active {
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: -4px;
+    background-color: #F2994A;
+}
+
+.form {
+    margin: auto;
+    flex: 1;
+    width: 50%;
+}
+
+.form_child {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_child2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.form_child2 .form_child{
+    width: 100%;
+    margin-right: 40px;
+}
+.form_child2 .form_child input{
+    width: 100%;
+}
+.form_child2 .form_child select{
+    width: 50%;
+}
+
+.form_child label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+.form_child p{
+    color: #817E9E;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+.form_child input{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.form_child2 .form_child select{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.span {
+    color: red;
+}

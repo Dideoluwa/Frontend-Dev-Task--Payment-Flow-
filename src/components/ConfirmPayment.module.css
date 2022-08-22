@@ -1,0 +1,79 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps {
+    margin: auto;
+    display: flex;
+    flex: 1;
+    width: 50%;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.steps_child_title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+.active {
+    color: #F2994A;
+}
+
+.steps_child_line_active {
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: -4px;
+    background-color: #F2994A;
+}
+
+.card {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+}
+
+.card_heading {
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    color: white;
+    background-color: #2F80ED;
+}
+.card_body{
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-around;  
+    margin: 30px 0px;
+}
+.name{
+    width: 70%;
+}
+
+.line{
+    height: 0.5px;
+    background-color: #817E9E;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card_body_total{
+    border: 0.5px solid #817E9E;
+   border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
