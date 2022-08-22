@@ -29,7 +29,7 @@ function App() {
   return (
     <div className={styles.body}>
       <div className={styles.header}>
-        <h1>Complete your Purchase</h1>
+       {show && <h1>Complete your Purchase</h1>}
       </div>
       {page === 1 && <PersonalInfo />}
       {page === 2 && <BillingInfo />}
