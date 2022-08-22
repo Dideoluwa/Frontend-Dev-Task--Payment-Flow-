@@ -48,17 +48,19 @@
     color: white;
     background-color: #2F80ED;
 }
-.card_body{
+
+.card_body {
     border-radius: 10px 10px 0px 0px;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     margin: 30px 0px;
 }
-.name{
+
+.name {
     width: 70%;
 }
 
-.line{
+.line {
     height: 0.5px;
     background-color: #817E9E;
     width: 95%;
@@ -67,9 +69,9 @@
     margin-bottom: 50px;
 }
 
-.card_body_total{
+.card_body_total {
     border: 0.5px solid #817E9E;
-   border-radius: 10px;
+    border-radius: 10px;
     display: flex;
     padding: 10px;
     width: 90%;
@@ -77,11 +79,13 @@
     margin-bottom: 20px;
     justify-content: space-around;
 }
+
 @media only screen and (max-width: 912px) {
     .steps {
         width: 70%;
     }
-    .card{
+
+    .card {
         width: 70%;
     }
 }
@@ -92,12 +96,29 @@
     }
 
     .steps_child_title {
-        font-size: 18px;
+        font-size: 14px;
         margin-bottom: 25px;
         color: #BDBDBD;
         font-weight: 700;
     }
-    .card{
+
+    .card {
         width: 95%;
+    }
+
+    .card_heading h2 {
+        font-size: 15px;
+    }
+
+    .name h2 {
+        font-size: 15px;
+    }
+
+    .price h2 {
+        font-size: 15px;
+    }
+
+    .card_body .price h2 {
+        font-size: 15px;
     }
 }

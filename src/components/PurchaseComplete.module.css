@@ -99,11 +99,12 @@
     }
 
     .card_message {
-        width: 60%;
+        width: 70%;
+        margin: auto;
     }
 
     .card_message h1 {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 32px;
     }
 
@@ -114,11 +115,11 @@
     }
 
     .card_message2 {
-        width: 60%;
+        width: 70%;
     }
 
     .card_message3 {
-        width: 60%;
+        width: 70%;
     }
 
     .card_message2 p {

@@ -31,7 +31,7 @@ function ConfirmPayment() {
                     <div className={styles.name}>
                         <h2>Item Name</h2>
                     </div>
-                    <div>
+                    <div className={styles.price}>
                         <h2>₦ Price</h2>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function ConfirmPayment() {
                     <div className={styles.name}>
                         <h2>Data science and usability</h2>
                     </div>
-                    <div>
+                    <div className={styles.price}>
                         <h2>50,000.00</h2>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function ConfirmPayment() {
                     <div className={styles.name}>
                         <h2>Shipping</h2>
                     </div>
-                    <div>
+                    <div className={styles.price}>
                         <h2>0.00</h2>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ function ConfirmPayment() {
                     <div className={styles.name}>
                         <h2>Total</h2>
                     </div>
-                    <div>
+                    <div className={styles.price}>
                         <h2>50,000.00</h2>
                     </div>
                 </div>

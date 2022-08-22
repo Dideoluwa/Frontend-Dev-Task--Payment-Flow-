@@ -44,7 +44,7 @@ function BillingInfo() {
                     <div className={styles.form_child}>
                         <label>Card details <span className={styles.span}>*</span></label>
                         <input
-                            placeholder='Surulere'
+                            placeholder='44960 44960 44960 44960'
                             type='text'
                         />
                     </div>
