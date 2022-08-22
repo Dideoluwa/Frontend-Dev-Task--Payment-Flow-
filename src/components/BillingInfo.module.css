@@ -130,6 +130,7 @@
     }
     .form {
         width: 100%;
+        padding: 10px;
     }
     .form_child2 .form_child {
         margin-right: 10px;
